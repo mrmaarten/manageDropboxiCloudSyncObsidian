@@ -1,4 +1,4 @@
-# Obsidian Sample Plugin
+# Obsidian Plugin to manage sync between dropbox and icloud
 
 This is a based on the sample plugin for Obsidian 
  https://github.com/obsidianmd/obsidian-sample-plugin

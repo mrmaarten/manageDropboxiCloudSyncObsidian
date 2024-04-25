@@ -40,7 +40,7 @@ export default class AddToDeletePlugin extends Plugin {
             deleteFile = vault.getAbstractFileByPath('_delete.md') as TFile;
         }
 
-        const filePath: string = file.path;
+		const filePath: string = file.path;
         const currentContent: string = await vault.read(deleteFile);
         await vault.modify(deleteFile, currentContent + '\n' + filePath);
     }
